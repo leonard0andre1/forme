@@ -1,0 +1,49 @@
+
+b{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label{
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+fieldset{
+    border-radius: 6%;
+
+    background-color: rgb(209, 238, 252);    
+}
+
+.classe
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formularioGeral{
+    width: 50%;
+}
+
+.idade{
+display: flex;
+justify-content: center;
+}
+
+.nome{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
