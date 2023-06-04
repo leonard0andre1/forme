@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> <div class="classe">
+    <form action="formulario.html" method="get" class="formularioGeral">
+        <fieldset>
+            <legend><h1>Cadastro Geral</h1></legend><br>
+                        
+            <div class="nome">
+                <label for="name"><b>Nome completo:</b></label><br>
+                <input type="text" id="name" name="name" required placeholder="Digite seu nome" ><br><br>
+            </div>    
+            <div class="email">
+                <label for="email"><b>Digite Email:</b></label><br>
+                 <input type="email" id="email" name="email" required placeholder="Digite seu email" ><br><br>
+            </div>
+            <div class="idade" >  
+                <fieldset class="idadeField" >
+                    <label for="age"> <b>Coloque sua idade:</b></label><br>
+                    <input type="radio" id="age1" name="age" value="1">
+                    <label for="age1">até 20 anos</label><br>
+                    <input type="radio" id="age2" name="age" value="2">
+                    <label for="age2">mais de 20 até 30 anos</label> <br>
+                    <input type="radio" id="age3" name="age" value="3">
+                    <label for="age3">mais de 30 até 40 anos</label><br>                                               
+                    <input type="radio" id="age4" name="age" value="4">
+                    <label for="age4">mais de 40 até 50 anos</label><br>
+                    <input type="radio" id="age5" name="age" value="5">
+                    <label for="age5">mais de 50 até 60 anos</label><br>
+                    <input type="radio" id="age6" name="age" value="6">
+                    <label for="age6">mais de 60 anos</label><br>
+                </fieldset>
+                <br><br>
+            </div>
+            <div>        
+                    <label for="comentario"> <b>Cometário:</b></label><br>
+                    <textarea name="comentario" id="comentario" cols="45" rows="12" required placeholder="Digite seu comentário" ></textarea><br><br>
+            </div>    
+        <button type="submit" class="botao">Enviar</button>
+        </fieldset>
+    </div>
+</body>
+</html>
